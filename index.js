@@ -46,13 +46,13 @@ seo.setDefaults({
 
 // Create an seo route
 seo.add("/quem_somos", function(req, opts, next) {
-    /*
+
     req: Express request
     opts: Object {
-        service: String ("facebook" || "twitter" || "search-engine")
+        service: String ("servico" || "rio de janeiro" || "profissionais"),
         lang: String (Detected language)
     }
-    */
+
     next({
         description: "A melhor página de serviços do Rio"
     });
