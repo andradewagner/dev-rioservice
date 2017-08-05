@@ -25,6 +25,10 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
+.navbar-collapse {
+  clear:both;
+}
+
 .time {
   width: 150px;
   height: 150px;
